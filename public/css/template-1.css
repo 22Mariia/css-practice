@@ -8,6 +8,7 @@ margin: 0 auto;
 }
 .header {
 padding: 24px;
+border-bottom: 1px solid #dee2e6;
 }
 .logo {
 font-size: 17px;
@@ -15,7 +16,7 @@ font-size: 17px;
 .divider {
   margin: 0;
   height: 1px;
-  background:#dee2e5 ;
+  background:#dee2e6 ;
 }
 .nav {
   display: block;
@@ -36,9 +37,7 @@ display: block;
 .nav_inline > .nav_link:not(:last-child) {
 margin-right: 24px;
 }
-.nav_vertical{
-  flex-direction: column;
-}
+
 .nav_vertical > .nav_link:not(:last-child){
   margin-bottom: 12px;
 }
@@ -51,6 +50,7 @@ margin-bottom: 80px;
 }
 .footer {
  padding: 24px 0;
+ border-top: 1px solid #dee2e6;
 }
 .footer_copiright{
   font-size: 14px;
@@ -70,6 +70,7 @@ margin-bottom: 80px;
   font-weight: 500px;
   margin-bottom: 12px;
   text-align: center;
+  
 }
 .hero_text{
   color: #212529;
@@ -77,6 +78,7 @@ margin-bottom: 80px;
   text-align: center;
   max-width: 585px;
   margin: 0 auto;
+  line-height: 150%;
 }
 .plans_card:not(:last-of-type){
   margin-right: 24px;
@@ -99,7 +101,7 @@ margin-bottom: 80px;
 .card_price_duration{
   font-size: 29px;
   color: #6c757d;
-
+vertical-align: 15px;
 }
 .card_block{
    text-align: center;
@@ -123,4 +125,41 @@ display: block;
   width: 100%;
   font-size: 19px;
   padding: 9px;
+}
+.card {
+  border: 1px solid blue;
+  border-radius: 15px;
+ 
+}
+.card:hover{
+  outline: 1px solid blue;
+  outline-offset: 2px;
+  box-shadow: 5px 5px 10px 1px rgba(85, 0, 255, 0.297);
+  cursor: not-allowed;
+}
+.btn{
+  border-radius: 25px; 
+}
+.btn:hover{
+  box-shadow: 5px 5px 10px 1px rgba(85, 0, 255, 0.297);
+}
+h1{
+  text-shadow: 0px 0px 10px rgba(255, 0, 0, 0.221);
+}
+.plans_card:nth-child(2) {
+  overflow: hidden;
+}
+
+.hero_title {
+  max-width: 660px;
+  margin: 0 auto;
+  margin-bottom: 12px;
+  height: 56px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+white-space: nowrap;
+}
+.hero_text {
+  background: gray;
+  text-align: left;white-space: pre-wrap;
 }

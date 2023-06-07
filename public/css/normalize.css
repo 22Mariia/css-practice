@@ -203,12 +203,7 @@ select { /* 1 */
  * Correct the inability to style clickable types in iOS and Safari.
  */
 
-button,
-[type="button"],
-[type="reset"],
-[type="submit"] {
-    -webkit-appearance: button;
-}
+
 
 /**
  * Remove the inner border and padding in Firefox.
@@ -299,7 +294,7 @@ textarea {
  */
 
 [type="search"] {
-    -webkit-appearance: textfield; /* 1 */
+     /* 1 */
     outline-offset: -2px; /* 2 */
 }
 
@@ -413,22 +408,6 @@ input:focus
 /* Text Inputs
 -----------------------------------------------*/
 
-input[type=date],
-input[type=datetime],
-input[type=datetime-local],
-input[type=email],
-input[type=month],
-input[type=number],
-input[type=password],
-input[type=range],
-input[type=search],
-input[type=tel],
-input[type=text],
-input[type=time],
-input[type=url],
-input[type=week]
-{
-}
 
 /* Button Controls
 -----------------------------------------------*/
@@ -649,12 +628,12 @@ input[type='search']::-webkit-search-decoration,
 input[type='search']::-webkit-search-results-button,
 input[type='search']::-webkit-search-results-decoration {
   -webkit-appearance: none;
-  -moz-appearance: none;
+
 }
 
 input[type='search'] {
-  -webkit-appearance: none;
-  -moz-appearance: none;
+
+  
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
   box-sizing: content-box;
@@ -748,7 +727,7 @@ button,
 html input[type='button'],
 input[type='reset'],
 input[type='submit'] {
-  -webkit-appearance: button;
+ 
   cursor: pointer;
 }
 
@@ -764,7 +743,7 @@ input[type='radio'] {
 }
 
 input[type='search'] {
-  -webkit-appearance: textfield;
+  
   -moz-box-sizing: content-box;
   -webkit-box-sizing: content-box;
   box-sizing: content-box;
@@ -927,10 +906,6 @@ input::-webkit-outer-spin-button {
   -webkit-appearance: none;
 }
 
-input[type='number'] {
-  -moz-appearance: textfield;
-  -webkit-appearance: unset;
-}
 
 
 
