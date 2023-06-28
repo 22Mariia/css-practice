@@ -294,3 +294,8 @@ align-items: center;
  color: #6c757d;
  border-radius: var(--border-radius-s);
 }
+.advantages{
+  display: grid;
+
+  grid-template-columns: 30% 30% 30%;
+}
